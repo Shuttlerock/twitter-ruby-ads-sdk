@@ -31,7 +31,7 @@ Gem::Specification.new do |s|
   end
 
   s.add_dependency 'multi_json', '~> 1.11'
-  s.add_dependency 'oauth', '~> 0.4'
+  s.add_dependency 'oauth', '>= 0.4', '< 2'
 
   s.files = Dir.glob('{bin,lib}/**/*')
   s.files += %w(twitter-ads.gemspec LICENSE README.md CONTRIBUTING.md Rakefile)
